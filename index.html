@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Main Page</title>
+</head>
+<body>
+    <div class="container" id="container"> 
+        <div class="form-container sign-up"> 
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a class="fa-brands fa-github"; href= "https://github.com/signup"> </a>
+                    <a class="fa-brands fa-facebook" href= "https://www.facebook.com"> </a>
+                    <a class="fa-brands fa-discord" href= "https://discord.com" ></a>
+                    <a class="fa-brands fa-steam" href= "https://store.steampowered.com/join" ></a>
+                </div>
+                <span>Or use your email for your registration</span>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in"> 
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a class="fa-brands fa-github"; href="https://github.com/login"> </a>
+                    <a class="fa-brands fa-facebook"; href= "https://www.facebook.com/login/"></a>
+                    <a class="fa-brands fa-discord"; href = "https://discord.com"></a>
+                    <a class="fa-brands fa-steam"; href = "https://store.steampowered.com/login/"></a>
+                </div>
+
+                <span>Or use your email and password</span>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <a href="#">Forgot Your Password?</a>
+                <button> <a href = "webpage.html"; style = "text-decoration: none; color: white" required>Sign In</button> </a>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hello, User!</h1>
+                    <p>Register with your information to access all of the site's functionalities</p>
+                    <button class="hidden" id="login"> Sign In</button>
+                </div>
+
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your information to access all of the site's functionalities</p>
+                    <button class="hidden" id="register">Sign Up</button> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

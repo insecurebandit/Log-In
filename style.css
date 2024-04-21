@@ -1,0 +1,49 @@
+
+	header {
+		padding: 5px;
+		text-align: center;
+		background: #b04f84;
+		color: #f9f2f6;
+		font-family: PMingLiU-ExtB;
+		font-size: 109px;
+	}
+	p {
+		text-align: center;
+		font-size: 30px;
+	}
+	h1 {	 
+		font-family: PMingLiU-ExtB;
+	}
+	h2 {
+		font-family: Priori Sans OT Black;
+		text-align: center;
+	}
+	h3 {
+		font-family: Priori Sans OT Black;
+		text-align: center;
+		font-size: 60px;
+	}
+	span {
+		background-color: #ba6593;
+	}
+	span1 {
+		background-color: orange;
+	}
+	span2 {
+		background-color: #efdce6;
+	}
+	body {
+            background-image: url(snooze.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+			width: auto;
+	.container {
+			max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+			background-color:rgba(255,255,255,0.65);
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	}
+}
